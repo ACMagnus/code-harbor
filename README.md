@@ -44,6 +44,7 @@ CodeHarbor 是一个基于 GitHub Discussions 的中文编程社区。没有课�
 | 💬 General | 自我介绍、日常交流、学习打卡 | [进入](https://github.com/ACMagnus/code-harbor/discussions/categories/general) |
 | 🙏 Q&A | 报错、选型、学习路径、代码问题 | [进入](https://github.com/ACMagnus/code-harbor/discussions/categories/q-a) |
 | 🙌 Show and tell | 项目、Demo、截图、踩坑复盘 | [进入](https://github.com/ACMagnus/code-harbor/discussions/categories/show-and-tell) |
+| 🔍 Code Review | 贴代码、求 review、给具体建议 | [进入](https://github.com/ACMagnus/code-harbor/discussions/categories/code-review) |
 | 💡 Ideas | 社区功能、活动形式、板块建议 | [进入](https://github.com/ACMagnus/code-harbor/discussions/categories/ideas) |
 | 🗳️ Polls | 投票、选题、技术栈小调查 | [进入](https://github.com/ACMagnus/code-harbor/discussions/categories/polls) |
 
