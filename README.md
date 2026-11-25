@@ -13,6 +13,7 @@
 [![License](https://img.shields.io/badge/license-MIT-2ea043?style=flat-square)](LICENSE)
 [![Community](https://img.shields.io/badge/community-open-8b5cf6?style=flat-square)](https://github.com/ACMagnus/code-harbor/discussions)
 
+[**打开官网**](https://acmagnus.github.io/code-harbor/) ·
 [**加入讨论**](https://github.com/ACMagnus/code-harbor/discussions) ·
 [**第一次提问**](https://github.com/ACMagnus/code-harbor/discussions/categories/q-a) ·
 [**展示作品**](https://github.com/ACMagnus/code-harbor/discussions/categories/show-and-tell) ·
