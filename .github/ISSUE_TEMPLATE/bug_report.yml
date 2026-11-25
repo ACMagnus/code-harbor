@@ -1,0 +1,51 @@
+name: 网站 / 仓库 Bug
+description: 报告页面、链接、模板或仓库配置问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。提问、求助和作品展示请去 Discussions；这里只处理网站、文档和仓库本身的 Bug。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题出现在哪里
+      options:
+        - 社区主页
+        - README / 文档
+        - 挑战 / 资源链接
+        - GitHub 模板
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: 页面或文件链接
+      placeholder: https://...
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 请写清楚实际结果和期望结果。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: 1. 打开... 2. 点击... 3. 看到...
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图 / 报错
+      description: 可直接拖入截图；请先遮掉密钥和个人信息。
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索现有 Issues 和 Discussions，没有重复
+          required: true
+        - label: 我没有在内容中填写 API Key、密码或 Cookie
+          required: true

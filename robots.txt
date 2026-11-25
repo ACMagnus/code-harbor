@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://acmagnus.github.io/code-harbor/sitemap.xml

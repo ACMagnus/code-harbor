@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 提问 / 报错 / 学习路径
+    url: https://github.com/ACMagnus/code-harbor/discussions/categories/q-a
+    about: 技术问题请走 Q&A，附上目标、尝试、报错和环境
+  - name: 展示作品
+    url: https://github.com/ACMagnus/code-harbor/discussions/categories/show-and-tell
+    about: Demo、仓库、截图、踩坑记录发这里
+  - name: 社区规则与治理
+    url: https://github.com/ACMagnus/code-harbor/blob/main/CODE_OF_CONDUCT.md
+    about: 发言前先看行为准则

@@ -1,0 +1,29 @@
+name: 内容 / 链接错误
+description: 报告失效链接、过时内容、错别字或版权问题
+title: "[Content] "
+body:
+  - type: input
+    id: where
+    attributes:
+      label: 出错的页面或文件
+      placeholder: 例如 resources/README.md 第 12 行
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 哪里不对
+      description: 失效链接请贴原链接和当前返回；版权问题请贴出处。
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: 建议怎么改
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我没有粘贴受版权保护的全文内容
+          required: true
