@@ -16,7 +16,7 @@
 [**加入讨论**](https://github.com/ACMagnus/code-harbor/discussions) ·
 [**第一次提问**](https://github.com/ACMagnus/code-harbor/discussions/categories/q-a) ·
 [**展示作品**](https://github.com/ACMagnus/code-harbor/discussions/categories/show-and-tell) ·
-[**每周挑战**](challenges/) ·
+[**每周挑战**](https://github.com/ACMagnus/code-harbor/discussions/5) ·
 [**资源库**](resources/)
 
 </div>
@@ -48,7 +48,7 @@ CodeHarbor 是一个基于 GitHub Discussions 的中文编程社区。没有课�
 ## 新人三步
 
 1. **读规则**：先看 [START-HERE.md](START-HERE.md) 和 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)。
-2. **打个招呼**：到 [自我介绍帖](https://github.com/ACMagnus/code-harbor/discussions) 说一句你在学什么、想做什么。
+2. **打个招呼**：到 [自我介绍帖](https://github.com/ACMagnus/code-harbor/discussions/3) 说一句你在学什么、想做什么。
 3. **发第一个问题或作品**：不用等“学完再发”，现在就可以。
 
 ## 本周挑战
