@@ -6,12 +6,22 @@
 <title>CodeHarbor · 码港 — 一个让问题有回音、让作品被看见的编程社区</title>
 <meta name="description" content="CodeHarbor（码港）是一个基于 GitHub Discussions 的中文编程社区。提问、Showcase、每周挑战、代码互审，不问出身，只看代码。">
 <meta name="theme-color" content="#06121e">
+<meta name="color-scheme" content="dark light">
+<link rel="canonical" href="https://acmagnus.github.io/code-harbor/">
 <meta property="og:title" content="CodeHarbor · 码港">
 <meta property="og:description" content="一个让问题有回音、让作品被看见的编程社区。">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="CodeHarbor · 码港">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="CodeHarbor 码港 — 一个让问题有回音、让作品被看见的编程社区">
 <meta property="og:url" content="https://acmagnus.github.io/code-harbor/">
 <meta property="og:image" content="https://acmagnus.github.io/code-harbor/assets/banner.png">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CodeHarbor · 码港">
+<meta name="twitter:description" content="一个让问题有回音、让作品被看见的编程社区。">
+<meta name="twitter:image" content="https://acmagnus.github.io/code-harbor/assets/banner.png">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <style>
 :root{
@@ -175,6 +185,15 @@ html[data-theme="light"] .term-body .ok{color:#15803d}
 .cta h2{font-size:clamp(26px,3vw,38px);max-width:16ch}
 .cta p{margin-top:10px}
 .cta .btn{white-space:nowrap}
+.skip{position:fixed;top:12px;left:12px;z-index:99;transform:translateY(-160%);background:var(--cyan);color:#04121d;padding:10px 16px;border-radius:10px;font-weight:700;transition:transform .2s}
+.skip:focus{transform:translateY(0)}
+.foot-stat{font-family:var(--mono);color:var(--dim)}
+.foot-stat b{color:var(--ink);font-weight:600}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
+  .reveal{opacity:1 !important;transform:none !important}
+}
 /* footer */
 footer{border-top:1px solid var(--line);padding:34px 0 46px;position:relative;z-index:2}
 .foot{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
@@ -220,6 +239,7 @@ footer{border-top:1px solid var(--line);padding:34px 0 46px;position:relative;z-
 </style>
 </head>
 <body>
+<a class="skip" href="#top">跳到主要内容</a>
 
 <header>
   <div class="wrap nav">
@@ -430,6 +450,8 @@ footer{border-top:1px solid var(--line);padding:34px 0 46px;position:relative;z-
   <div class="wrap foot">
     <p>CodeHarbor · 码港 — 不问出身，只看代码。MIT License © 2026 竹下一刀魂</p>
     <div class="foot-links">
+      <a class="foot-stat" href="https://github.com/ACMagnus/code-harbor" target="_blank" rel="noopener">★ <b data-stars>0</b></a>
+      <a class="foot-stat" href="https://github.com/ACMagnus/code-harbor/fork" target="_blank" rel="noopener">Fork <b data-forks>0</b></a>
       <a href="https://github.com/ACMagnus/code-harbor" target="_blank" rel="noopener">GitHub</a>
       <a href="https://github.com/ACMagnus/code-harbor/discussions" target="_blank" rel="noopener">Discussions</a>
       <a href="https://github.com/ACMagnus/code-harbor/blob/main/CODE_OF_CONDUCT.md" target="_blank" rel="noopener">行为准则</a>
