@@ -18,6 +18,7 @@
 [**第一次提问**](https://github.com/ACMagnus/code-harbor/discussions/categories/q-a) ·
 [**展示作品**](https://github.com/ACMagnus/code-harbor/discussions/categories/show-and-tell) ·
 [**每周挑战**](https://github.com/ACMagnus/code-harbor/discussions/5) ·
+[**Wiki 手册**](https://github.com/ACMagnus/code-harbor/wiki) ·
 [**资源库**](resources/)
 
 </div>
